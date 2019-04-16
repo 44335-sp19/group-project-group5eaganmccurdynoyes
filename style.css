@@ -1,4 +1,4 @@
-body {background-color: #D3D3D3;}
+body {background-color: #f0f0f0;}
 
 h1 {font-family: serif; font-size: 45px; font-weight: normal; line-height: 48px; margin: 0; }
 
@@ -7,4 +7,6 @@ h2 {font-family: 'Source Sans Pro', sans-serif; font-size: 28px; font-weight: 40
 p {font-family: 'Source Sans Pro', sans-serif; font-size: 18px; line-height: 32px; margin: 0 0 24px; }
 
 
-button {text-decoration-color: firebrick;}
+button {background-color: #62acb5;}
+
+.homebutton {color: white;}
