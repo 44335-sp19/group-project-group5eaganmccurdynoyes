@@ -1,1 +1,1 @@
-/* JavaScript Code goes here! */
+/* JavaScript and JQuery Code goes here! */
