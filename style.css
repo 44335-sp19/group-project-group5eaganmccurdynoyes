@@ -1,4 +1,4 @@
-body {background-color: #f0f0f0;}
+body {background-color: #f0f0f0; padding-bottom: 25px;}
 
 h1 {font-family: serif; font-size: 45px; font-weight: normal; line-height: 48px; margin: 0; }
 
@@ -6,7 +6,9 @@ h2 {font-family: 'Source Sans Pro', sans-serif; font-size: 28px; font-weight: 40
 
 p {font-family: 'Source Sans Pro', sans-serif; font-size: 18px; line-height: 32px; margin: 0 0 24px; }
 
+footer {background-color: #62acb5; color: #ffffff; padding: 10px;}
 
 button {background-color: #62acb5;}
 
-.homebutton {color: white;}
+.homebutton {color: #ffffff;}
+.footerlinks {color: #ffffff; padding: 25px;}
