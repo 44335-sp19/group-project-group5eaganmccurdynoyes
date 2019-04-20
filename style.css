@@ -12,9 +12,10 @@ footer {background-color: #62acb5; color: #ffffff;
     display: block;
     box-sizing: border-box;
 }
-nav {background-color: #62acb5;
-    margin-bottom: 40px;
-}
+
+nav {background-color: #62acb5; color: #ffffff; margin-bottom: 20px;}
+
+
 
 button {background-color: #62acb5;}
 
