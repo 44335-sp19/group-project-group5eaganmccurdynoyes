@@ -1,1 +1,0 @@
-/* JavaScript and JQuery Code goes here! */
