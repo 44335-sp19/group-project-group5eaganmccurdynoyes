@@ -1,23 +1,28 @@
 body {background-color: #f0f0f0; padding-bottom: 25px;}
 
-h1 {font-family: serif; font-size: 45px; font-weight: normal; line-height: 48px; padding: 20px;}
+h1 {font-family: serif; font-size: 45px; font-weight: normal; line-height: 48px; padding: 20px; text-align: center;}
 
-h2 {font-family: 'Source Sans Pro', sans-serif; font-size: 28px; font-weight: 400; line-height: 32px; margin: 0 0 24px; padding}
+h2 {font-family: 'Source Sans Pro', sans-serif; font-size: 28px; font-weight: 400; line-height: 32px; margin: 24px;}
+h3 {text-align: center; padding: inherit; text-decoration-line: underline; padding: 20px;}
+h4 {text-align: center; padding: inherit; padding: 20px}
 
-p {font-family: 'Source Sans Pro', sans-serif; font-size: 18px; line-height: 32px; margin: 0 0 24px; }
+p {font-family: 'Source Sans Pro', sans-serif; font-size: 18px; line-height: 32px; margin-top: 24px; padding-top: 20px;}
 
 footer {background-color: #62acb5; color: #ffffff;
     padding-top: 20px;
     margin-top: 40px;
     display: block;
-    box-sizing: border-box;
 }
 
 nav {background-color: #62acb5; color: #ffffff; margin-bottom: 20px;}
 
 
+.h3p {text-align: center;}
+
 
 button {background-color: #62acb5;}
 
 .homebutton {color: #ffffff;}
+#homebutton1 {background-color: #62acb5}
+#homebutton2 {background-color: #62acb5}
 .footerlinks {color: #ffffff; padding: 25px; margin-bottom: 15px;}
