@@ -1,4 +1,4 @@
-body {background-color: #f0f0f0; padding-bottom: 25px;}
+body {background-color: #f0f0f0; padding: 25px;margin: 30px;}
 
 h1 {font-family: serif; font-size: 45px; font-weight: normal; line-height: 48px; padding: 20px; text-align: center;}
 
@@ -25,6 +25,16 @@ nav {background-color: #62acb5; color: #ffffff; margin-bottom: 20px;}
 }
 iframe {margin-left: 150px;}
 
+#favcolor, #favmusic, #gradDate, #sport, #puzzle {
+    display: block;
+      border: 2px solid #62acb5;
+    border-radius: 5px;
+    vertical-align: middle;
+    width: 200px;
+    margin: auto;
+    color: #354B5E;
+    padding-top: 40px;
+    margin-top: 10px;}
 
 button {background-color: #62acb5; text-align: center;}
 
