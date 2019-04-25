@@ -22,7 +22,7 @@
       <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center">
   <ul class="navbar-nav">
     <li class="nav-item">
-      <a class="nav-link" href="#">Home</a>
+      <a class="nav-link" href="index.html">Home</a>
     </li>
     <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
@@ -62,7 +62,27 @@
           </div>
       </div>
       
-      <!-- buttons to sections on page-->
+      <h3 id="samuelContact">Contact Samuel</h3>
+      <div class="row">
+          <div class="col-sm-5 text-center">
+              <form id= "contactForm" class = "form">
+                Name:<br> <input type = "text" name = "name"  style="width: 300px; height: 50px;"><br>
+                Email: <br><input type = "text" name = "email" style="width: 300px; height: 50px;"><br>
+                Subject: <br><input type = "text" name = "subject" style="width: 300px; height: 50px;"><br>
+              </form>
+          </div>
+          <div class="col-sm-5 text-center">
+              <form id = "contactForm" class = "messageForm">
+                Message: <br><input type = "text" name = "message" style="width: 500px; height: 200px;"><br> 
+              </form>
+          </div>
+          <div class="col-sm-1 text-center" >
+              <input type="button" onclick="submitForm()" value="Submit" class = "button">
+          </div>
+          </div>
+           
+      
+      
       
       
       <h3 id= "samuelResume">Samuel's Résumé</h3>
@@ -168,5 +188,13 @@
               <a href = "mailto: samueleagan@gmail.com" class= "footerlinks">samueleagan@gmail.com</a>
           </div>
       </div>
+    <script>
+        function submitForm () {
+            document.getElementById("submitForm").submit();
+        }
+        
+        
+        
+    </script>
   </footer>
 </html>
