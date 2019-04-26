@@ -15,6 +15,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
        <link rel="stylesheet" href="style.css">
+
   </head>
   <body>
       <!-- Insert COMPLETED menu-->
@@ -63,18 +64,18 @@
           </div>
       </div>
      
-      
       <h3 id="nicoleContact">Contact Nicole</h3>
-            <div class="row">
+        <a href="mailto: nkmccurdy34@gmail.com" class="hiddenmedia">Email Nicole!</a>
+      <div class="row">
           <div class="col-sm-5 text-center">
-              <form id= "contactForm" class = "form">
-                Name:<br> <input type = "text" name = "name"  style="width: 300px; height: 50px;"><br>
-                Email: <br><input type = "text" name = "email" style="width: 300px; height: 50px;"><br>
-                Subject: <br><input type = "text" name = "subject" style="width: 300px; height: 50px;"><br>
+              <form id= "contactForm" class = "form" action="https://formspree.io/email@domain.tld">
+                Name:<br> <input type = "text" name = "name" id="name" style="width: 300px; height: 50px;"><br>
+                Email: <br><input type = "text" name = "email" id="email" style="width: 300px; height: 50px;"><br>
+                Subject: <br><input type = "text" name = "subject" id="subject" style="width: 300px; height: 50px;"><br>
               </form></div>
           <div class="col-sm-5 text-center">
-              <form id = "contactForm" class = "messageForm">
-                Message: <br><input type = "text" name = "message" style="width: 500px; height: 200px;"><br> 
+              <form id = "messageForm" class = "form" >
+                Message: <br><input type = "text" name = "message" id= "message" style="width: 500px; height: 200px;"><br> 
               </form>
                 </div>    
       </div>
@@ -83,6 +84,16 @@
        <br>
               <input type="button" onclick="submitForm()" value="Submit" class = "button">
           </div></div>
+      <script>
+          function submitForm(){
+              var name = document.getElementById('name').value;
+              var email = document.getElementById('email').value;
+            var subject = document.getElementById('subject').value;
+            var body = document.getElementById('message').value;
+            document.write('<a href="mailto:nkmccurdy34@gmail.com' + email + '?subject=' +subject+ '&body=' +body+ '">' + 'Message Sent! Click here to send another or reload page!' + '<'+'/a>');
+          }
+      </script>
+      
       <h3 id="nicoleResume">Nicole's Résumé</h3>
       <iframe src="Nicole/NMcCurdyResumeNoAd1.pdf" width="80%" height="500px"></iframe>
       
@@ -160,7 +171,9 @@
       <p>"Knacktive is an advanced, undergraduate, course/agency experience at Northwest Missouri State University.  The elective course is designed to replicate the creative demands and intense teamwork atmosphere of a technology-oriented, professional marketing communications agency." I participated in Knacktive as a copywriter on the eight person Cultivators team in the Spring of 2018. We worked closely as we created a pitch for the nonprofit <a href= "http://www.americanroyal.com/">American Royal</a>. I learned valuable skills while working with my team. These skills included how to communicate effectively, great time management skills, and how to problem solve quickly. I created mock-ups for pamphlets and worked closely with each person to complete a 48 page pitchbook. I learned the value of hardwork and relying on other people to complete tasks. We worked together as a team well and completed a great presentation to the client at the end of the semester. </p>
           </div>
       </div>
+      
   </body>
+        
    <footer>
       <div class="row">
           <div class="col-sm-12 text-center">

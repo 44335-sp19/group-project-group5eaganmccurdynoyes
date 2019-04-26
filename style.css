@@ -13,10 +13,10 @@ footer {background-color: #62acb5; color: #ffffff;
     margin-top: 40px;
     display: block;
 }
-
+script {font-family: 'Source Sans Pro', sans-serif; font-size: 18px; line-height: 32px; margin-top: 24px; padding-top: 20px;}
 nav {background-color: #62acb5; color: #ffffff; margin-bottom: 20px;}
 
-
+.hiddenmedia {display: none;}
 .h3p {text-align: center;}
 
 .center {  display: block;
@@ -48,3 +48,14 @@ button {background-color: #62acb5; text-align: center;}
 .footerlinks {color: #ffffff    ; margin-bottom: 15px;}
 .messageForm {width: 100%;}
 .form {padding-left: 200px;}
+
+
+@media only screen and (max-width: 600px){
+    body, p, h1, h2, h3, h4 {margin: auto; font-size: 20px; text-align: center;}
+    img {width: auto;}
+    footer, iframe, #nicoleResume, form, input {display: none;}
+    .hiddenmedia{display: block;}
+}
+@media only screen and (max-width:1000px){
+    
+}
