@@ -55,31 +55,29 @@
       <h3>About Me</h3>
       <div class="row">
           <div class="col-sm-6">
-              <img src= "# Need to get a headshot" class="rounded float-left" alt="">
+              <img src= "#Need to get a headshot" class="rounded float-left" alt="" height="370px">
           </div>
           <div class="col-sm-6">
               <p>My name is Samuel Eagan. I am currently a junior at Northwest Missouri State University. I am a Computer Science major. I plan to graduate in the fall of 2020. My hobbies include watching movies and listening to music.</p>
           </div>
       </div>
       
-      <h3 id="samuelContact">Contact Samuel</h3>
+      <h3 id="nicoleContact">Contact Samuel</h3>
       <div class="row">
-          <div class="col-sm-5 text-center">
-              <form id= "contactForm" class = "form">
-                Name:<br> <input type = "text" name = "name"  style="width: 300px; height: 50px;"><br>
-                Email: <br><input type = "text" name = "email" style="width: 300px; height: 50px;"><br>
-                Subject: <br><input type = "text" name = "subject" style="width: 300px; height: 50px;"><br>
-              </form>
+          <div class="col-sm text-center">
+              <p>Email: <a href="mailto: samueleagan@gmail.com">samueleagan@gmail.com</a></p>
           </div>
-          <div class="col-sm-5 text-center">
-              <form id = "contactForm" class = "messageForm">
-                Message: <br><input type = "text" name = "message" style="width: 500px; height: 200px;"><br> 
-              </form>
+      </div>
+      <div class="row">
+          <div class="col-sm text-center">
+              <p class="centeredN">Location: Creston, IA</p>        
           </div>
-          <div class="col-sm-1 text-center" >
-              <input type="button" onclick="submitForm()" value="Submit" class = "button">
+      </div>
+        <div class="row">
+          <div class="col-sm text-center">
+              <p class="centeredN">Graduation Date: December 2020</p>
           </div>
-          </div>
+      </div>
            
       
       
@@ -89,7 +87,7 @@
       <iframe src="Samuel/Samuel%20Eagan%20Resume%20(Software%20Engineering).pdf" width="80%" height="500px"></iframe>
       
       <h3 id= "samuelProgramming">Samuel's Programming Skills</h3>
-      <p>This section includes Python, Java, and C++ code to showcase my past and current programming projects. </p>
+      <p class="h3p">This section includes Python and C++ code, along with some JavaScript examples to showcase my past and current programming projects.</p>
       <h4>Python</h4>
       <div class="row">
           <div class="col-sm-6">
@@ -103,9 +101,6 @@
           </div>
       </div>
       
-      <h4>Java</h4>
-      <p></p>
-      
       <h4>C++</h4>
       <div class="row">
           <div class="col-sm-6">
@@ -118,12 +113,12 @@
       </div>
       
       <h3 id="samuelWeb">Web</h3>
-      <p>This page was coded in HTML, JavaScript, Bootstrap, and CSS. So, this section is going to have fun questions about me. Just click on the buttons with the questions on them to see the answer!</p>
+      <p class="h3p">This page was coded in HTML, JavaScript, Bootstrap, and CSS. So, this section is going to have fun questions about me. Just click on the buttons with the questions on them to see the answer!</p>
       
-      <div id="favanimal">What is my favorite animal?</div>
-      <div id="favmusic">What is my favorite kind of music?</div>
-      <div id="gradDate">When do I plan to graduate?</div>
-      <div id="triplet">What is something that people wouldn't know about me?</div>
+      <div id="favanimal" class ="text-center">What is my favorite animal?</div>
+      <div id="favmusic" class ="text-center">What is my favorite kind of music?</div>
+      <div id="gradDate" class ="text-center">When do I plan to graduate?</div>
+      <div id="triplet" class ="text-center">What is something that people wouldn't know about me?</div>
       
       
       <script type="text/javascript">
@@ -146,9 +141,6 @@
         function submitForm () {
             document.getElementById("submitForm").submit();
         }
-        
-        
-        
     </script>
       <div class="row">
           <div class="col-sm-12 text-center">
