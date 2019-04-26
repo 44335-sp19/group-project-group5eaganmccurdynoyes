@@ -5,9 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
       <title>Module 6 Group Project::Nicole McCurdy::Samuel Eagan</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-      
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" 				integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" 						crossorigin="anonymous">
-   
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
@@ -67,31 +65,24 @@
      
       
       <h3 id="nicoleContact">Contact Nicole</h3>
-      <div class="row">
-          <div class="col-sm-6 text-center">
-              <p>Email: </p>
-          </div>
-           <div class="col-sm-6 text-center">
-               <p><a href="mailto: nkmccurdy34@gmail.com">nkmccurdy34@gmail.com</a></p>
-          </div>
+            <div class="row">
+          <div class="col-sm-5 text-center">
+              <form id= "contactForm" class = "form">
+                Name:<br> <input type = "text" name = "name"  style="width: 300px; height: 50px;"><br>
+                Email: <br><input type = "text" name = "email" style="width: 300px; height: 50px;"><br>
+                Subject: <br><input type = "text" name = "subject" style="width: 300px; height: 50px;"><br>
+              </form></div>
+          <div class="col-sm-5 text-center">
+              <form id = "contactForm" class = "messageForm">
+                Message: <br><input type = "text" name = "message" style="width: 500px; height: 200px;"><br> 
+              </form>
+                </div>    
       </div>
       <div class="row">
-          <div class="col-sm-6 text-center">
-              <p class="centeredN">Location: </p>
-          </div>
-           <div class="col-sm-6 text-center">
-              <p>Leawood, KS</p>
-          </div>
-      </div>
-          <div class="row">
-          <div class="col-sm-6 text-center">
-              <p class="centeredN">Graduation Date:</p>
-          </div>
-           <div class="col-sm-6 text-center">
-              <p>December 2019</p>
-          </div>
-      </div>
-      
+   <div class="col-sm text-center" >
+       <br>
+              <input type="button" onclick="submitForm()" value="Submit" class = "button">
+          </div></div>
       <h3 id="nicoleResume">Nicole's Résumé</h3>
       <iframe src="Nicole/NMcCurdyResumeNoAd1.pdf" width="80%" height="500px"></iframe>
       
