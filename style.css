@@ -57,7 +57,7 @@ button {background-color: #62acb5; text-align: center;}
     img {width: auto;}
     footer, iframe, #nicoleResume, #samuelResume, form, input {display: none;}
     .hiddenmedia{display: block;}
-    #cultivators, #sqloutput { width: 250px;}
+    #cultivators, #sqloutput, #nicolePython { width: 250px;}
     #samC, #samPython {width: 350px; height: auto;}
     .homepic {width: 200px; height: auto;}
     .hidesmall, #hidesmall {display: none;}
