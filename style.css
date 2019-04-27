@@ -21,7 +21,7 @@ nav, .navbar  {background-color: #62acb5; color: #ffffff; margin-bottom: 20px;}
 .hiddenmedia {display: none;}
 .h3p {text-align: center;}
 
-.center {  display: block;
+.center, .sampic {  display: block;
   margin-left: auto;
   margin-right: auto;
 }
@@ -52,18 +52,22 @@ button {background-color: #62acb5; text-align: center;}
 .form {padding-left: 200px;}
 
 
+@media only screen and (max-width:1024px){
+    body, p, h1, h2, h3, h4 {margin: 20px; font-size: 25px; text-align: center;}
+    img {width: auto;}
+    footer, iframe, #nicoleResume, #samuelResume, form, input {display: none;}
+    .hiddenmedia{display: block;}
+    #cultivators, #sqloutput { width: 250px;}
+    #samC, #samPython {width: 350px; height: auto;}
+    .homepic {width: 200px; height: auto;}
+    .hidesmall, #hidesmall {display: none;}
+    .sampic {width: 200px; height: auto;}
+}
 @media only screen and (max-width: 600px){
     body, p, h1, h2, h3, h4 {margin: auto; font-size: 20px; text-align: center;}
     img {width: auto;}
     footer, iframe, #nicoleResume, form, input {display: none;}
     .hiddenmedia{display: block;}
-    #sqloutput, #cultivators {width: 400px;}
+    #sqloutput, #cultivators {width: 350px;}
 
-}
-@media only screen and (max-width:1024px){
-    body, p, h1, h2, h3, h4 {margin: 20px; font-size: 25px; text-align: center;}
-    img {width: auto;}
-    footer, iframe, #nicoleResume, form, input {display: none;}
-    .hiddenmedia{display: block;}
-    #cultivators, #sqloutput { width: 350px;}
 }
