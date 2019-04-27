@@ -56,7 +56,7 @@
       <h3>About Me</h3>
       <div class="row">
           <div class="col-sm-6">
-              <img src= "#Need to get a headshot" class="rounded float-left" alt="" height="370px">
+              <img src= "Samuel/SamuelEaganAwfulHeadshot.png" class="center" alt="" height="370px">
           </div>
           <div class="col-sm-6">
               <p>My name is Samuel Eagan. I am currently a junior at Northwest Missouri State University. I am a Computer Science major. I plan to graduate in the fall of 2020. My hobbies include watching movies and listening to music.</p>
@@ -64,21 +64,34 @@
       </div>
       
       <h3 id="nicoleContact">Contact Samuel</h3>
+        <a href="mailto: samueleagan@gmail.com" class="hiddenmedia">Email Samuel!</a>
       <div class="row">
-          <div class="col-sm text-center">
-              <p>Email: <a href="mailto: samueleagan@gmail.com">samueleagan@gmail.com</a></p>
-          </div>
+          <div class="col-sm-5 text-center">
+              <form id= "contactForm" class = "form" action="https://formspree.io/email@domain.tld">
+                Name:<br> <input type = "text" name = "name" id="name" style="width: 300px; height: 50px;"><br>
+                Email: <br><input type = "text" name = "email" id="email" style="width: 300px; height: 50px;"><br>
+                Subject: <br><input type = "text" name = "subject" id="subject" style="width: 300px; height: 50px;"><br>
+              </form></div>
+          <div class="col-sm-5 text-center">
+              <form id = "messageForm" class = "form" >
+                Message: <br><input type = "text" name = "message" id= "message" style="width: 500px; height: 200px;"><br> 
+              </form>
+                </div>    
       </div>
       <div class="row">
-          <div class="col-sm text-center">
-              <p class="centeredN">Location: Creston, IA</p>        
-          </div>
-      </div>
-        <div class="row">
-          <div class="col-sm text-center">
-              <p class="centeredN">Graduation Date: December 2020</p>
-          </div>
-      </div>
+   <div class="col-sm text-center" >
+       <br>
+              <input type="button" onclick="submitForm()" value="Submit" class = "button">
+          </div></div>
+      <script>
+          function submitForm(){
+              var name = document.getElementById('name').value;
+              var email = document.getElementById('email').value;
+            var subject = document.getElementById('subject').value;
+            var body = document.getElementById('message').value;
+            document.write('<a href="mailto:nkmccurdy34@gmail.com' + email + '?subject=' +subject+ '&body=' +body+ '">' + 'Message Sent! Click here to send another or reload page!' + '<'+'/a>');
+          }
+      </script>
            
       
       
